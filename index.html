@@ -1,0 +1,82 @@
+<!DOCTYPE html><html lang="en">
+<title> Wolf </title> <!-- <link rel="icon" href="link/or/path">  -->
+<head>
+  <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <div class="sky">
+      <div id='moon'>🌑</div>
+    </div>
+  </div>
+
+
+
+  <p>
+      
+Gray wolf
+Temporal range: Middle Pleistocene – present (810,000-0 years BP[1])
+European grey wolf in Prague zoo.jpg
+Eurasian wolf (Canis lupus lupus).
+Conservation status
+
+Least Concern (IUCN 3.1)[2]
+Scientific classification edit
+Kingdom:	Animalia
+Phylum:	Chordata
+Class:	Mammalia
+Order:	Carnivora
+Family:	Canidae
+Genus:	Canis
+Species:	C. lupus
+Binomial name
+Canis lupus
+Linnaeus, 1758[3]
+Subspecies
+refer Subspecies of Canis lupus
+
+Grey wolf distribution with subdivisions.PNG
+Historical (red + green) and modern (green) range of wild subspecies of C. lupus
+The wolf (Canis lupus),[a] also known as the gray wolf, timber wolf,[4][5] western wolf,[b] and its other subspecies is a canine native to the wilderness and remote areas of Eurasia and North America. It is the largest extant member of its family, with males averaging 43–45 kg (95–99 lb) and females 36–38.5 kg (79–85 lb).[7] Like the red wolf, it is distinguished from other Canis species by its larger size and less pointed features, particularly on the ears and muzzle.[8] Its winter fur is long and bushy and predominantly a mottled gray in color, although nearly pure white, red, and brown to black also occur.[5] Mammal Species of the World (3rd ed., 2005), a standard reference work in zoology, recognises 38 subspecies of C. lupus.[9].
+  </p>
+
+<br><br><br>
+<img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjfpcK4mendAhUkwFkKHbXaD_AQjRx6BAgBEAU&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWolf&psig=AOvVaw2R2qE3daCuPwQfCvZ4sUTQ&ust=1538619231434658"/>
+
+
+
+</body>
+<script>
+
+phase = (phases)=>{
+  var moon = document.getElementById('moon')
+  moon.innerHTML = phases[0]
+  phases.push(phases[0])
+  phases.shift()
+  setTimeout(()=>{
+    phase(phases)
+  },500)
+}
+phase(['🌑','🌒','🌓','🌔','🌕','🌖','🌗','🌘'])
+
+</script>
+<style media="screen">
+html * {
+  margin: 0px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #444;
+}
+.sky {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 100px;
+  margin-left: -50px;
+  margin-top: -50px;
+}
+</style>
+</html>
